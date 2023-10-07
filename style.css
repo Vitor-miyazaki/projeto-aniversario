@@ -1,0 +1,45 @@
+@Charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+}
+
+:root{
+    --font00: 'Dancing Script', cursive;
+}
+
+body{
+    height: 90vh;
+    background: white url('imagens/coração\ \(3\).jpg') no-repeat fixed center center /cover; 
+    
+}
+
+#container{
+
+background: rgb(231, 230, 230) url('') no-repeat fixed center center /cover;
+margin: auto;
+margin-top: 50px;
+height: 500px;
+max-width: 800px;
+border-radius: 15px;
+box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.507);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--font00);
+    font-size: 4em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+    color: rgb(172, 37, 37);
+    
+}
+
+hr{
+    margin: auto;
+    width: 600px;
+    
+}
+
