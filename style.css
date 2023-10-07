@@ -12,22 +12,17 @@
 }
 
 body{
-    height: 90vh;
-    background: white url('imagens/coração\ \(3\).jpg') no-repeat fixed center center /cover; 
-    
+    height: 100vh;
+    background: white url('imagens/coração\ \(3\).jpg') no-repeat fixed center center /cover;
+  
 }
 
-#container{
-
-background: rgb(231, 230, 230) url('') no-repeat fixed center center /cover;
-margin: auto;
-padding: 15px;
-margin-top: 50px;
-height: 900px;
-max-width: 800px;
-border-radius: 15px;
-box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.507);
-
+#container1{
+    width: 450px;
+    height: 482px;
+    margin: auto;    
+    background: white url('imagens/img/foto\ \(55\).jpeg') no-repeat fixed center center /contain;
+    padding: 10px;
 }
 
 h1{
@@ -35,10 +30,40 @@ h1{
     font-family: var(--font00);
     font-size: 4em;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
-    color: rgb(172, 37, 37);
+    color: rgb(255, 255, 255);
     margin-bottom: 30px;
+    background-color: rgba(182, 25, 25, 0.418);
+    width: 1050px;
+    margin: auto;
+    padding: 20px;
     
 }
+
+#container2{
+    width: 450px;
+    height: 580px;
+    margin-top: 50px;
+    background: white url('imagens/img/foto\ \(41\).jpeg') no-repeat fixed left top /contain;
+    
+}
+
+#container3{
+    width: 430px;
+    height: 580px;
+    margin-top: 50px;
+    margin-left: 65.1%;
+    background: white url('imagens/img/foto\ \(34\).jpeg') no-repeat fixed right top /contain;
+    
+}
+
+#container4{
+    width: 390px;
+    height: 482px;
+    margin: auto; 
+    margin-top: 50px;   
+    background: white url('imagens/img/foto\ \(8\).jpeg') no-repeat fixed center center /contain;
+    background-attachment: ;
+    padding: 10px;
 
 p{
     text-indent: 15px;
