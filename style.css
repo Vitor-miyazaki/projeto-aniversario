@@ -21,11 +21,13 @@ body{
 
 background: rgb(231, 230, 230) url('') no-repeat fixed center center /cover;
 margin: auto;
+padding: 15px;
 margin-top: 50px;
-height: 500px;
+height: 900px;
 max-width: 800px;
 border-radius: 15px;
 box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.507);
+
 }
 
 h1{
@@ -34,12 +36,17 @@ h1{
     font-size: 4em;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
     color: rgb(172, 37, 37);
+    margin-bottom: 30px;
     
 }
 
-hr{
-    margin: auto;
-    width: 600px;
-    
+p{
+    text-indent: 15px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+strong{
+    color: rgb(218, 48, 48);
 }
 
